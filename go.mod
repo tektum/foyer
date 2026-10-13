@@ -1,4 +1,4 @@
-module github.com/omercnet/foyer
+module github.com/tektum/foyer
 
 go 1.26.3
 

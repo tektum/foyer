@@ -16,11 +16,11 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/omercnet/foyer/internal/app"
-	"github.com/omercnet/foyer/internal/browser"
-	"github.com/omercnet/foyer/internal/cna"
-	"github.com/omercnet/foyer/internal/config"
-	"github.com/omercnet/foyer/internal/dhcp"
+	"github.com/tektum/foyer/internal/app"
+	"github.com/tektum/foyer/internal/browser"
+	"github.com/tektum/foyer/internal/cna"
+	"github.com/tektum/foyer/internal/config"
+	"github.com/tektum/foyer/internal/dhcp"
 )
 
 // Build information, overridden at release time via -ldflags by GoReleaser.
