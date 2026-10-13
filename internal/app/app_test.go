@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/omercnet/foyer/internal/config"
+	"github.com/tektum/foyer/internal/config"
 )
 
 func quietLogger() *slog.Logger {

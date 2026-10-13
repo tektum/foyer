@@ -2,10 +2,10 @@
 
 > A privacy-first captive-portal browser.
 
-[![CI](https://github.com/omercnet/foyer/actions/workflows/ci.yml/badge.svg)](https://github.com/omercnet/foyer/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/omercnet/foyer?sort=semver)](https://github.com/omercnet/foyer/releases)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/omercnet/foyer/badge)](https://scorecard.dev/viewer/?uri=github.com/omercnet/foyer)
-[![Go Reference](https://pkg.go.dev/badge/github.com/omercnet/foyer.svg)](https://pkg.go.dev/github.com/omercnet/foyer)
+[![CI](https://github.com/tektum/foyer/actions/workflows/ci.yml/badge.svg)](https://github.com/tektum/foyer/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/tektum/foyer?sort=semver)](https://github.com/tektum/foyer/releases)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/tektum/foyer/badge)](https://scorecard.dev/viewer/?uri=github.com/tektum/foyer)
+[![Go Reference](https://pkg.go.dev/badge/github.com/tektum/foyer.svg)](https://pkg.go.dev/github.com/tektum/foyer)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A **foyer** is the small entryway you pass through before stepping inside — you
@@ -52,14 +52,14 @@ the throwaway profile is deleted.
 ### Go
 
 ```sh
-go install github.com/omercnet/foyer@latest
+go install github.com/tektum/foyer@latest
 ```
 
 The binary is named `foyer`.
 
 ### Pre-built binaries
 
-Download from [Releases](https://github.com/omercnet/foyer/releases).
+Download from [Releases](https://github.com/tektum/foyer/releases).
 Each release includes a CycloneDX SBOM and a cosign-signed `checksums.txt`.
 
 Verify the checksums signature (keyless / Sigstore):
@@ -68,7 +68,7 @@ Verify the checksums signature (keyless / Sigstore):
 cosign verify-blob \
   --certificate checksums.txt.pem \
   --signature checksums.txt.sig \
-  --certificate-identity-regexp 'https://github.com/omercnet/foyer/.*' \
+  --certificate-identity-regexp 'https://github.com/tektum/foyer/.*' \
   --certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \
   checksums.txt
 ```

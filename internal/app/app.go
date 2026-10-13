@@ -14,10 +14,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/omercnet/foyer/internal/browser"
-	"github.com/omercnet/foyer/internal/config"
-	"github.com/omercnet/foyer/internal/dhcp"
-	"github.com/omercnet/foyer/internal/proxy"
+	"github.com/tektum/foyer/internal/browser"
+	"github.com/tektum/foyer/internal/config"
+	"github.com/tektum/foyer/internal/dhcp"
+	"github.com/tektum/foyer/internal/proxy"
 )
 
 // Run executes Foyer's main flow with the given configuration. It blocks until
